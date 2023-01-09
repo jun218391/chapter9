@@ -10,11 +10,6 @@ header {
   height: 50px;
 }
 
-footer {
-  background-color: #AAAAAA;
-  /*width: 100%;*/
-  height: 50px;
-}
 
 main {
   display: flex;
@@ -68,8 +63,37 @@ h3 {
   color: white;
 }
 
+footer {
+  background-color: #AAAAAA;
+  /*width: 100%;*/
+  height: 50px;
+}
+
 /*media queries*/
 
 @media screen and (max-width:768px) {
+  
+  header {
+    width: 100%;
+  }
+  
+  main {
+    display:block;
+    width: 100%;
+  }
+  
+  .box {
+    margin:0 auto;
+    width: 90%;
+    margin-bottom:20px;
+  }
+  .box:last-child{
+    margin-bottom: 0;
+}
+  .img1, .img2, .img3 {
+    width: 100%;
+    
+    
+  }
   
 }
