@@ -67,3 +67,9 @@ h3 {
   background-color: #FF9A4B;
   color: white;
 }
+
+/*media queries*/
+
+@media screen and (max-width:768px) {
+  
+}
