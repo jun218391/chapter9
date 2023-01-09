@@ -91,6 +91,7 @@ footer {
     margin-bottom: 0;
 }
   .img1, .img2, .img3 {
+    /*width: inherit;*/
     width: 100%;
     
     
